@@ -16,7 +16,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  background: #34495e;
+  background: #2a3d52;
   margin: 0;
   padding: 0;
 }
@@ -69,6 +69,7 @@ footer {
   border-radius: 50%;
   overflow: hidden;
   transition: transform 0.3s;
+  background-color: #ddd;
 }
 
 .social-img-btn img {
@@ -83,12 +84,16 @@ footer {
 }
 .projects-btn {
   text-decoration: none;
-  background-color:rgb(133, 127, 114,0.85);
+  background-color: #4a4a4a;
   color: white;
   padding: 12px 24px;
   font-size: 18px;
   border-radius: 25px;
   cursor: pointer;
+  border: 1px solid #fff;
+}
+.projects-btn:hover {
+  background-color: #333;
 }
 .par-mani {
   display: flex;
@@ -135,7 +140,7 @@ body.dark-mode footer {
 body.dark-mode .projekts,
 body.dark-mode .par-mani {
   background-color: #121212;
-  border-color: #444;
+  border-color: #666;
 }
 
 body.dark-mode ul {
@@ -153,6 +158,9 @@ body.dark-mode ul {
 }
 
 body.dark-mode #darkModeToggle {
-  background-color: #333;
+  background-color: #444;
   color: #f5f5f5;
+}
+body.dark-mode .social-img-btn {
+  background-color: #222;
 }
