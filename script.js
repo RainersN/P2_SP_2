@@ -1,5 +1,3 @@
-// Šeit vari pievienot interaktivitāti, piemēram, pogas klikšķa efektus
-console.log("Sveiks! Mājaslapa ir ielādēta.");
 document.getElementById('darkModeToggle').addEventListener('click', function () {
   document.body.classList.toggle('dark-mode');
 
