@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Par Mani</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="img/ruhero.webp">
 </head>
 <body>
   <header>
@@ -21,11 +22,11 @@
   </nav>
 
   <main>
-	<script src="script.js"></script>
+	<script src="script.js" defer></script>
 	<section id="par">
 	  <h2>Par Mani</h2>
 	  <div class="par-mani">
-		<img src="img/ruhero.jpg" alt="Mans foto" class="par-mani-bilde">
+		<img src="img/ruhero.webp" alt="Mans foto" class="par-mani-bilde" loading="lazy" decoding="async">
 	   <p>Mani sauc Rainers Niņuks,esmu topošais programmēšanas tehniķis. Pašlaik mācos Rīgas Tehniskajā koledžā. Mani interesē ar IT saistītās lietas,bet visvairāk man patīk veidot spēles/modifikācijas. Man ir zināšanas RPGMaker MV,kā arī diezgan laba prasme strādāt ar HOI4 failu sistēmu,pašlaik strādāju uz apakšmodifikāciju.</p>
 	  </div>
 	</section>
@@ -60,4 +61,3 @@
 
 </body>
 </html>
-
